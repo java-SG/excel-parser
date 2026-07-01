@@ -30,6 +30,8 @@ A number of libraries is used to make things easy, primarily apache.poi for xml 
 Along I wrote some helper methods to process getting the file initially, within certain boundaries, placed in Utility
 This can ofcourse be either hardcoded or swapped out entirely based on preferred mechanics.
 
+The main method will simply show some simple cases of how to iterate the data.
+
 For me personally, the primary usage is to easily parse a huge load of seed data to my Java Springboot application, 
 without writing a million lines of builders manually.
 Especially due to the extend of what that application will encompass.
