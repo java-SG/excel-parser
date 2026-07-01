@@ -64,7 +64,7 @@ public class ParseExcel {
 
         try (Workbook workbook = new XSSFWorkbook(stream)) {
 
-            DataFormatter formatter = new DataFormatter();
+//            DataFormatter formatter = new DataFormatter(); // Useful but not necessary for basic use
 
             for (int currentSheet = 0; currentSheet < workbook.getNumberOfSheets(); currentSheet++) {
 
