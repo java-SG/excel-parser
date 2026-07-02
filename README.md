@@ -15,7 +15,7 @@ The data object is finally returned as a Map containing:
 
 The data is classed as: Map<String, List<Map<String, Object>>>
 
-A number of libraries is used to make things easy, primarily apache.poi for xml based structures:
+A number of libraries are used to make things easy, primarily apache.poi for xml based structures:
   xmlbeans-5.3.0.jar
   commons-collections4-4.4.jar
   commons-compress-1.27.1.jar
