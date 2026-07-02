@@ -53,7 +53,7 @@ public class Main {
             }
         }
 
-        /* Print each attribute for each entry for each sheet and its data */
+        /* Print each key (header) for each entry for each sheet and its value (cell) */
         for (String sheet : sheets) {
             System.out.println("Sheet: {" + sheet + "}");
             for (Map<String, Object> entry : ExcelData.get(sheet)) {
