@@ -13,7 +13,7 @@ The data object is finally returned as a Map containing:
     Maps which contains:
       the key (header) with its cell value
 
-The data is classed as: Map<String, List<Map<String, Object>>>
+The ExcelData object is shaped as: Map<String, List<Map<String, Object>>>
 
 A number of libraries are used to make things easy, primarily apache.poi for xml based structures:
   xmlbeans-5.3.0.jar
